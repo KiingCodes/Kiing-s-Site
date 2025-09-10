@@ -69,7 +69,7 @@ header {
 .hero {
   background: url("assets/Background.png") no-repeat center/cover;
   background-position: top center;
-  min-height: 100vh;        /* full screen height */
+  
   display: flex;
   flex-direction: column;
   justify-content:flex-end;
