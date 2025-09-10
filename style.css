@@ -74,8 +74,8 @@ header {
 /* Hero */
 .hero {
   background: url("assets/How%20i%20work.png");
-  background-position: top center;
-  min-height: 100vh;        /* full screen height */
+  background-position: bottom center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content:flex-end;
