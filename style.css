@@ -65,6 +65,12 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .nav a {
+    padding: 10px 0;
+  }
+}
+
 /* Hero */
 .hero {
   background: #c8a2c8;
@@ -75,10 +81,10 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+
   padding-top: 120px;       /* space for header */
   box-sizing: border-box;   /* include padding in height */
 }
-
 
 
 * {
