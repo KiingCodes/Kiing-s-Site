@@ -80,13 +80,6 @@ header {
   box-sizing: border-box;   /* include padding in height */
 }
 
-@media (max-width: 768px) {
-  .section {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-}
 
 
 * {
