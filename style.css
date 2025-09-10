@@ -6,6 +6,80 @@
   --text: #333333;
 }
 
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: url("assets/Background.png");
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hamburger */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background: #111;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .nav.show {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/* Hero */
+.hero {
+  background: url("assets/Background.png") no-repeat center/cover;
+  min-height: 100vh;        /* full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 120px;       /* space for header */
+  box-sizing: border-box;   /* include padding in height */
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -20,31 +94,14 @@ body {
   line-height: 1.6;
 }
 
+
 /* Sections */
 .section {
   padding: 80px 20px;
   text-align: center;
 }
 
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background: url("assets/Background.png");
-  background-size: cover;
-}
-
-.logo {
-  width: 380px;
-  margin-bottom: 80px;
-  animation: pop 1s ease forwards;
-  position: absolute;
-  top: 10px;     /* space from top */
-  left: 20px;    /* space from left */
-  width: 250px;  /* control size */  
-}
+  
 
 /* White glow for subtitle */
 .hero p {
@@ -88,7 +145,7 @@ body {
 }
 
 .about p{
-    color: white;
+    color: coral;
 }
 
 
