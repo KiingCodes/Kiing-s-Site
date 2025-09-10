@@ -75,7 +75,6 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-
   padding-top: 120px;       /* space for header */
   box-sizing: border-box;   /* include padding in height */
 }
