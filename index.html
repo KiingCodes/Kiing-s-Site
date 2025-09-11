@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
 </head>
 <body>
   <!-- Header -->
@@ -29,112 +30,280 @@
   </section>
 
 
-  <!-- About -->
-  <section id="about" class="section about">
-    <h2>About Me</h2>
-    <p>
-      I’m a full-stack developer passionate about transforming bold ideas into
-      powerful, stylish, and user-friendly digital experiences. With a strong
-      background in modern web technologies, I specialize in building products
-      that not only work flawlessly but also captivate users with design and
-      interactivity.
-    </p>
-  </section>
+<!-- About -->
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I’m a full-stack developer passionate about transforming bold ideas into
+        powerful, stylish, and user-friendly digital experiences. With a strong
+        background in modern web technologies, I specialize in building products
+        that not only work flawlessly but also captivate users with design and
+        interactivity.
+      </p>
 
-  <!-- Services -->
-  <section id="services" class="section services">
-    <h2></h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Custom Web Apps</h3>
-        <p>I build fast, scalable applications tailored to your business needs.</p>
-      </div>
-      <div class="card">
-        <h3>UI/UX Design</h3>
-        <p>Beautiful, user-friendly interfaces that keep users engaged.</p>
-      </div>
-      <div class="card">
-        <h3>API & Backend Systems</h3>
-        <p>Reliable, secure, and efficient server-side solutions to power your apps.</p>
-      </div>
-      <div class="card">
-        <h3>Creative Prototyping</h3>
-        <p>Turn your idea into an interactive prototype before building the full product.</p>
-      </div>
-    </div>
-  </section>
+      <!-- Skills -->
+      <div class="skills">
+        <h3>My Skills</h3>
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill">
+            <span><i class="fab fa-html5"></i> HTML</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
 
-  <!-- Portfolio -->
-  <section id="projects" class="section projects">
-    <h2>Projects</h2>
-    <div class="cards">
-      <div class="card"><h3>Project 1</h3><p>Pending...</p></div>
-      <div class="card"><h3>Project 2</h3><p>Pending...</p></div>
-      <div class="card"><h3>Project 3</h3><p>Pending...</p></div>
-      <div class="card"><h3>Project 4</h3><p>Pending...</p></div>
-      <div class="card"><h3>Project 5</h3><p>Pending...</p></div>
-      <div class="card"><h3>Project 6</h3><p>Pending...</p></div>
+          <div class="skill">
+            <span><i class="fab fa-css3-alt"></i> CSS</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fab fa-js-square"></i> JavaScript</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fab fa-react"></i> React</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill">
+            <span><i class="fab fa-node-js"></i> Node.js</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fas fa-server"></i> Express.js</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fab fa-python"></i> Python</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <!-- Database / Cloud -->
+          <div class="skill">
+            <span><i class="fas fa-fire"></i> Firebase</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fas fa-database"></i> MongoDB</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fas fa-database"></i> SQL</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill">
+            <span><i class="fab fa-git-alt"></i> Git & GitHub</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+          <div class="skill">
+            <span><i class="fas fa-pencil-ruler"></i> UI/UX Design</span>
+            <div class="skill-bar"><div class="fill" data-width="95%"></div></div>
+          </div>
+
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+    
+</section>
+
+<!-- Services -->
+<section id="services" class="services">
+  <h2>What I Can Do For You</h2>
+  <div class="services-grid">
+    
+    <div class="card">
+      <i class="fas fa-code service-icon icon-blue"></i>
+      <h3>Custom Web Apps</h3>
+      <p>I build fast, scalable applications tailored to your business needs.</p>
     </div>
-  </section>
+
+    <div class="card">
+      <i class="fas fa-paint-brush service-icon icon-pink"></i>
+      <h3>UI/UX Design</h3>
+      <p>Beautiful, user-friendly interfaces that keep users engaged.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-server service-icon icon-green"></i>
+      <h3>API & Backend Systems</h3>
+      <p>Reliable, secure, and efficient server-side solutions to power your apps.</p>
+    </div>
+
+    <div class="card">
+      <i class="fas fa-lightbulb service-icon icon-yellow"></i>
+      <h3>Creative Prototyping</h3>
+      <p>Turn your idea into an interactive prototype before building the full product.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+ <!-- Projects -->
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+    <div class="card">
+      <img src="assets/project1.png" alt="Project 1" />
+      <h3>Portfolio Website</h3>
+      <p>A stylish and fully responsive personal portfolio site.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+      <img src="assets/project2.png" alt="Project 2" />
+      <h3>E-Commerce App</h3>
+      <p>Modern shopping app with cart, payments & animations.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+      <img src="assets/project3.png" alt="Project 3" />
+      <h3>Business Landing Page</h3>
+      <p>High-converting landing page for small businesses.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+  </div>
+</section>
 
   <!-- Process -->
-  <section id="process" class="section process">
-    <h2>How I Work</h2>
-    <div class="timeline">
-      <div class="step"><h3>1. Discovery</h3><p>We discuss your goals and challenges.</p></div>
-      <div class="step"><h3>2. Design</h3><p>I create wireframes and prototypes for clarity.</p></div>
-      <div class="step"><h3>3. Development</h3><p>I build your app with modern full-stack tools.</p></div>
-      <div class="step"><h3>4. Launch</h3><p>We deploy and make sure everything runs smoothly.</p></div>
+<section id="process" class="process">
+  <h2>How I Work</h2>
+  <div class="timeline">
+
+    <div class="step">
+      <div class="icon-circle blue"><i class="fas fa-search"></i></div>
+      <div class="content">
+        <h3>1. Discovery</h3>
+        <p>We discuss your goals and challenges.</p>
+      </div>
     </div>
-  </section>
 
-
-  <!-- Contact -->
-  <section id="contact" class="section contact">
-    <h2>Get in Touch</h2>
-   <form 
-  id="contactForm"
-  class="contact-form"
-  action="https://formspree.io/f/mqadnbkp"
-  method="POST"
->
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <button type="submit" class="btn">Send Message</button>
-</form>
-    <div class="socials">
-        <a href="https://www.linkedin.com/in/kiingcodes" target="_blank">LinkedIn</a> | <a href="https://github.com/KiingCodes" target="_blank">GitHub</a> | <a href="https://www.instagram.com/good.assheart?igsh=c3M1OXRubGNiY2h4" target="_blank">Instagram</a>
+    <div class="step">
+      <div class="icon-circle pink"><i class="fas fa-pencil-ruler"></i></div>
+      <div class="content">
+        <h3>2. Design</h3>
+        <p>I create wireframes and prototypes for clarity.</p>
+      </div>
     </div>
-  </section>
-    
-    
-    
-     
 
-  <!-- Footer -->
+    <div class="step">
+      <div class="icon-circle green"><i class="fas fa-laptop-code"></i></div>
+      <div class="content">
+        <h3>3. Development</h3>
+        <p>I build your app with modern full-stack tools.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="icon-circle yellow"><i class="fas fa-rocket"></i></div>
+      <div class="content">
+        <h3>4. Launch</h3>
+        <p>We deploy and make sure everything runs smoothly.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <p>Feel free to reach out for collaborations, projects, or just to say hi!</p>
+
+  <div class="contact-card">
+    <form 
+      id="contactForm"
+      action="https://formspree.io/f/mqadnbkp"
+      method="POST"
+    >
+      <div class="form-group">
+        <input type="text" name="name" id="name" required />
+        <label for="name">Your Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email" id="email" required />
+        <label for="email">Your Email</label>
+      </div>
+
+      <div class="form-group">
+        <textarea name="message" id="message" required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+    
+    <div class="contact-social">
+  <a href="mailto:kiingcodes@outlook.com" target="_blank" aria-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://wa.me/qr/6S2RE45CVGWCD1" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/kiingcodes" target="_blank" aria-label="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://www.instagram.com/good.assheart?igsh=c3M1OXRubGNiY2h4" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+    
+</section> 
+    
+    
+    
+    <!-- Footer -->
 <footer class="footer">
-    <div class="footer-content">
-    <div class="footer-logo">
-      <img src="assets/Family.png" alt="Logo" />     
+  <div class="footer-container">
+    <!-- Left logo -->
+    <div class="footer-logo-left">
+      <img src="assets/KiingCodes Logo.png" alt="Logo" />
     </div>
 
-    <nav class="footer-nav">
+    <!-- Social / Links -->
+    <div class="footer-links">
+      <a href="#hero">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-    </nav>
+      <div class="footer-social">
+        <a href="mailto:kiingcodes@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://wa.me/qr/6S2RE45CVGWCD1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/kiingcodes" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/good.assheart?igsh=c3M1OXRubGNiY2h4" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
 
-    <div class="footer-socials">
-      <a href="https://www.linkedin.com/in/kiingcodes" target="_blank">🌐 LinkedIn</a>
-      <a href="https://github.com/KiingCodes" target="_blank">💻 GitHub</a>
-      <a href="https://www.instagram.com/good.assheart?igsh=c3M1OXRubGNiY2h4" target="_blank">📸 Instagram</a>
-      <a href="https://wa.me/27604334341" target="_blank">💬 WhatsApp</a>
+    <!-- Right logo -->
+    <div class="footer-logo-right">
+      <img src="assets/Family.png" alt="Logo Right" width="170" />
     </div>
   </div>
-    
+  <p class="footer-copy">&copy; <span id="year"></span> Kiing Ncube. All rights reserved.</p>
 </footer>
+
+    
+    
+     
+
     
       <script>
     // Contact form with Formspree
@@ -166,8 +335,65 @@
         nav.classList.toggle("show");
       });
     }
+        
+          
+  const steps = document.querySelectorAll(".step");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target); // animate only once
+      }
+    });
+  }, { threshold: 0.2 });
+
+  steps.forEach(step => observer.observe(step));
+          
+          
+          
+  document.addEventListener("DOMContentLoaded", () => {
+  const fills = document.querySelectorAll(".fill");
+
+  const revealSkills = () => {
+    fills.forEach(fill => {
+      const targetWidth = fill.getAttribute("style").match(/width:\s*(\d+%)/)[1];
+      fill.style.setProperty("--target-width", targetWidth);
+    });
+  };
+
+  // Run when scrolling into About section
+  const aboutSection = document.getElementById("about");
+  const observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      revealSkills();
+    }
+  }, { threshold: 0.5 });
+
+  observer.observe(aboutSection);
+});
+          
+          
+   
+  const fills = document.querySelectorAll(".skill-bar .fill");
+
+  const skillObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const bar = entry.target;
+        const targetWidth = bar.getAttribute("data-width");
+        bar.style.width = targetWidth; // animate to target
+        skillObserver.unobserve(bar); // animate only once
+      }
+    });
+  }, { threshold: 0.3 });
+
+  fills.forEach(bar => skillObserver.observe(bar));   
+          
+ //Footer Year        
+  document.getElementById("year").textContent = new Date().getFullYear();        
+          
+        
   </script>
-
-
 </body>
 </html>
