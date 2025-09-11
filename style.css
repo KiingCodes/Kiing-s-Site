@@ -74,11 +74,11 @@ header {
 /* Hero */
 .hero {
   background: url("assets/Background.png");
-  background-position: bottom center;
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: center;
   text-align: center;
   height: 100vh;
@@ -299,11 +299,12 @@ p {
   background:url("assets/Background%202.png");
   background-size: cover;
   background-position: center;
-  color: white;
+  color: coral;
   text-align: center;
 }
 
 .services h2 {
+  color: coral;
   font-size: 2.5rem;
   margin-bottom: 40px;
   text-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -327,7 +328,7 @@ p {
 .services .card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #fff;
+  color: coral;
 }
 
 .services .card p {
@@ -395,13 +396,14 @@ p {
 .projects {
   padding: 80px 20px;
   background: url("assets/Neon%20Geometry%20on%20Dark%20Blue.png");
-  background-position: center;
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
 }
 
 .projects h2 {
+  color: coral;
   font-size: 2.5rem;
   margin-bottom: 40px;
   text-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -431,7 +433,7 @@ p {
 .card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #fff;
+  color: coral;
 }
 
 .card p {
@@ -466,14 +468,15 @@ p {
 .process {
   padding: 80px 20px;
   background:url("assets/ChatGPT%20Image%20Sep%2011,%202025,%2012_18_22%20PM.png");
-  background-position: center;
   background-size: cover;
+  background-position: center;
   color: coral;
   text-align: center;
 }
 
 .process h2 {
   font-size: 2.5rem;
+  color: coral;
   margin-bottom: 50px;
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -702,7 +705,6 @@ p {
   z-index: 0;
 }
 
-
 @keyframes slowGlow {
   0% { transform: translateX(-50%) rotate(0deg); }
   50% { transform: translateX(-50%) rotate(180deg) scale(1.05); }
@@ -794,7 +796,7 @@ p {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   .footer-container {
     flex-direction: column;
     align-items: center;
