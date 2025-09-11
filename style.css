@@ -73,7 +73,7 @@ header {
 
 /* Hero */
 .hero {
-  background: url("assets/How%20i%20work.png");
+  background: url("assets/Background.png");
   background-position: bottom center;
   background-size: cover;
   display: flex;
