@@ -82,6 +82,7 @@ header {
   align-items: center;
   text-align: center;
   height: 100vh;
+  width: 100%;
 
   padding-top: 120px;       /* space for header */
   box-sizing: border-box;   /* include padding in height */
