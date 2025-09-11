@@ -141,9 +141,9 @@ body {
 
 .about {
   padding: 80px 20px;
-  background: url(assets/Background.png); 
+  background: indigo; 
   background-size: cover;
-    background-position: center;
+  background-position: center;
   color: white;
 }
 
@@ -296,6 +296,7 @@ p {
   padding: 80px 20px;
   background:url("assets/ChatGPT%20Image%20Sep%2011,%202025,%2012_18_35%20PM.png");
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
 }
@@ -392,6 +393,7 @@ p {
 .projects {
   padding: 80px 20px;
   background: url("assets/Neon%20Geometry%20on%20Dark%20Blue.png");
+  background-position: center;
   background-size: cover;
   color: white;
   text-align: center;
@@ -462,6 +464,7 @@ p {
 .process {
   padding: 80px 20px;
   background:url("assets/ChatGPT%20Image%20Sep%2011,%202025,%2012_18_22%20PM.png");
+  background-position: center;
   background-size: cover;
   color: white;
   text-align: center;
