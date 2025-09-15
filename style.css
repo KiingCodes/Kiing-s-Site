@@ -296,7 +296,7 @@ p {
 
 .services {
   padding: 80px 20px;
-  background: black;
+  background:black;
   background-size: cover;
   background-position: center;
   color: coral;
@@ -304,7 +304,7 @@ p {
 }
 
 .services h2 {
-  color: coral;
+  color: gold;
   font-size: 2.5rem;
   margin-bottom: 40px;
   text-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -328,12 +328,12 @@ p {
 .services .card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: coral;
+  color: deeppink;
 }
 
 .services .card p {
   font-size: 1rem;
-  color: #f5f5f5;
+  color: gold;
 }
 
 .services .card:hover {
@@ -403,7 +403,7 @@ p {
 }
 
 .projects h2 {
-  color: coral;
+  color: gold;
   font-size: 2.5rem;
   margin-bottom: 40px;
   text-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -470,13 +470,13 @@ p {
   background:url("assets/ChatGPT%20Image%20Sep%2011,%202025,%2012_18_22%20PM.png");
   background-size: cover;
   background-position: center;
-  color: coral;
+  color: gold;
   text-align: center;
 }
 
 .process h2 {
   font-size: 2.5rem;
-  color: coral;
+  color: deeppink;
   margin-bottom: 50px;
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -578,7 +578,7 @@ p {
 .contact h2 {
   font-size: 2.2rem;
   margin-bottom: 10px;
-  color: var(--coral);
+  color: gold;
   text-shadow: 0 0 10px rgba(200,162,200,0.8);
 }
 
@@ -632,7 +632,7 @@ p {
   top: -10px;
   left: 12px;
   font-size: 0.85rem;
-  color: var(--coral);
+  color: gold;
 }
 
 .form-group textarea {
@@ -811,3 +811,4 @@ p {
     gap: 8px;
   }
 }
+
