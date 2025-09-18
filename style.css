@@ -296,7 +296,7 @@ p {
 
 .services {
   padding: 80px 20px;
-  background:black;
+  background: url("assets/Services%20BG.jpg") ;
   background-size: cover;
   background-position: center;
   color: coral;
