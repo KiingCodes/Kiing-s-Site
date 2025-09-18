@@ -143,7 +143,7 @@ body {
 
 .about {
   padding: 80px 20px;
-  background: indigo; 
+  background: black; 
   background-size: cover;
   background-position: center;
   color: white;
@@ -465,12 +465,13 @@ p {
 }
 
 
+
 .process {
   padding: 80px 20px;
-  background:url("assets/ChatGPT%20Image%20Sep%2011,%202025,%2012_18_22%20PM.png");
+  background:url("assets/Process.jpg");
   background-size: cover;
   background-position: center;
-  color: gold;
+  color: white;
   text-align: center;
 }
 
